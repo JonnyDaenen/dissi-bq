@@ -1,6 +1,10 @@
-# Part 2 - JSON to BigQuery
+# DISSI-BQ
 
-This application loads JSON data from a storage location (e.g. GCS)
+DISSY-BQ is a DIStributed Schema Inference tool for BigQuery JSON data loading,
+written in Apache Beam. It is trivial to execute on Cloud Dataflow, in combination
+with data that resides in Cloud Storage.
+
+The pipeline loads JSON data from a storage location (e.g. GCS)
 into BigQuery according to a common schema. The schema is auto-inferred
 based on the data, and is used to keep the target table up to date.
 
