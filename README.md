@@ -1,5 +1,7 @@
 # DISSI-BQ
 
+[![Python application](https://github.com/JonnyDaenen/dissi-bq/actions/workflows/python-app.yml/badge.svg)](https://github.com/JonnyDaenen/dissi-bq/actions/workflows/python-app.yml)
+
 DISSY-BQ is a DIStributed Schema Inference tool for BigQuery JSON data loading,
 written in Apache Beam. It is trivial to execute on Cloud Dataflow, in combination
 with data that resides in Cloud Storage.
