@@ -1,0 +1,6 @@
+venv
+.idea
+sa-key.json
+examples
+__pycache__
+*.egg-info/
